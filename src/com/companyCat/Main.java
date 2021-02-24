@@ -15,8 +15,9 @@ public class Main {
 
 
         System.out.println(Fraction.BackFraction(fraction));
-        System.out.println("введите операцию над дробями");
-        Fraction.operation = "*";
+        Fraction.operation = "+"; //по идее будет работать с +.- ))))
+
+        System.out.println(" операция над дробями - "+Fraction.operation);
         System.out.println(Fraction.CalcSumR(fraction, fraction1));
 
     }
